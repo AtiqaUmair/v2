@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PDF</title>
+  <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="assets/pdf.js"></script>
+    <script src="assets/jquerry.js"></script>
+    <script src="https://unpkg.com/jspdf-invoice-template@1.4.0/dist/index.js"></script> -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+
+
+
+
+
+<section> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> <span></span> 
+       
+    <!-- ----------------HEAD OF PASSENGERS FORM ----------------- -->
+    <div class="passengers" id="headPassenger"> 
+
+        <div class="content"> 
+    
+         <h6>Head Of passengers</h6> 
+    
+         <div class="form"> 
+    
+           <div class="inputBox"> 
+             <input type="text" id="headName"  required placeholder="Head Name"> 
+          </div>  
+          
+          <div class="inputBox"> 
+            <input type="number" id="contactNo" placeholder="Contact No" required> 
+           </div> 
+    
+           <div class="inputBox"> 
+            <input type="number" id="voucherNo" placeholder="Voucher No" required> 
+           </div> 
+    
+           <div class="inputBox"> 
+           <input  id="headNextBtn" type="submit" value="Next">  
+           </div>  
+           
+         </div> 
+    
+        </div> 
+    
+       </div>
+
+
+<!-- ---------------- PASSENGERS FORM ----------------- -->
+<div class="passengers" id="passenger"> 
+
+  <div class="content"> 
+
+   <h6>passengers</h6> 
+
+   <div class="form"> 
+
+     <div class="inputBox"> 
+       <input type="text" id="name" required placeholder="Head Name"> 
+    </div>  
+    
+    <div class="inputBox"> 
+      <input type="text" id="gender" placeholder="Gender " required> 
+     </div> 
+
+     <div class="inputBox"> 
+      <input type="number" id="passportNo" placeholder="Passport No" required> 
+     </div> 
+     <div class="inputBox"> 
+      <input type="number" id="visaNo" placeholder="Visa No" required> 
+     </div>
+
+     <div class="inputBox"> 
+     <input  id="headNextBtnToHotel" type="submit" value="Next">  
+     </div>  
+     <div class="inputBox"> 
+      <input  id="addPassenger" type="submit" value="Add">  
+      </div> 
+     
+   </div> 
+
+  </div> 
+
+ </div>
+
+
+
+
+       <!-- ---------------- HOTEL FORM ----------------- -->
+    <div class="passengers" id="hotel"> 
+
+      <div class="content"> 
+  
+       <h6>HOTELS</h6> 
+  
+       <div class="form"> 
+  
+         <div class="inputBox"> 
+           <input type="text" id="hotelName" required placeholder="Hotel Name"> 
+        </div>  
+        
+        <div class="inputBox"> 
+          <input type="text" id="city" placeholder="City" required> 
+         </div> 
+  
+         <div class="inputBox"> 
+          <input type="text" id="roomType" placeholder="Room Type" required> 
+         </div> 
+
+         <div class="inputBox"> 
+          <input type="datetime" id="checkIn" placeholder="Check In" required> 
+         </div>
+
+         <div class="inputBox"> 
+          <input type="datetime" id="checkOut" placeholder="Check Out" required> 
+         </div>
+         <div class="inputBox"> 
+          <input type="number" id="night" placeholder="Nights" required> 
+         </div>
+  
+         <div class="inputBox"> 
+         <input  id="hotelAddBtn" type="submit" value="Add">  
+         </div>  
+
+         <div class="inputBox"> 
+          <input  id="nextToTransportation" type="submit" value="next">  
+          </div> 
+         
+       </div> 
+  
+      </div> 
+  
+     </div>
+
+
+     
+       <!-- ---------------- Transprt FORM ----------------- -->
+    <div class="passengers" id="transport"> 
+
+      <div class="content"> 
+  
+       <h6>Transportation</h6> 
+  
+       <div class="form"> 
+  
+         <div class="inputBox"> 
+           <input type="text" id="transportationCompany" required placeholder="Transportation Company"> 
+        </div>  
+        
+        <div class="inputBox"> 
+          <input type="text" id="transportationType" placeholder="Transportation Type" required> 
+         </div>
+  
+         <div class="inputBox"> 
+         <input  id="addTransport" type="submit" value="Add">  
+         </div>  
+
+         <div class="inputBox"> 
+          <input  id="nextToFlights" type="submit" value="Next">  
+          </div> 
+         
+       </div> 
+  
+      </div> 
+  
+     </div>
+
+
+       <!-- ---------------- Flight FORM ----------------- -->
+    <div class="passengers" id="flight"> 
+
+      <div class="content"> 
+  
+       <h6>Flights</h6> 
+  
+       <div class="form"> 
+  
+         <div class="inputBox"> 
+           <input type="text" id="date" required placeholder="date"> 
+        </div>  
+        
+        <div class="inputBox"> 
+          <input type="text" id="flightNo" placeholder="flight no" required> 
+         </div>
+
+         <div class="inputBox"> 
+          <input type="text" id="route" placeholder="route" required> 
+         </div>
+         <div class="inputBox"> 
+          <input type="text" id="departure" placeholder="departure" required> 
+         </div>
+         <div class="inputBox"> 
+          <input type="text" id="arrival" placeholder="arrival" required> 
+         </div>
+         <div class="inputBox"> 
+          <input type="text" id="PNRtNo" placeholder="PNR no" required> 
+         </div>
+         <div class="inputBox"> 
+         <input  id="addFlight" type="submit" value="Add">  
+         </div>  
+
+         <div class="inputBox"> 
+          <input  id="generatePDF" type="submit" value="Generate PDF">  
+          </div> 
+         
+       </div> 
+  
+      </div> 
+  
+     </div>
+
+
+
+    </section>  
+
+
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.4.0/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf-autotable/3.5.18/jspdf.plugin.autotable.min.js"></script> -->
+
+</body>
+
+<script src="jquery.js"></script>
+<script src="./assets/js/jsPdf.js"></script>
+<script>if (window.define) delete window.define.amd;</script>
+<script src="./assets/js/autotable.js"></script>
+<script src="./assets/js/pdf.js"></script>
+ <script src="./assets/js/app.js"></script>
+</html>
